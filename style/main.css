@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  padding: 4em 20em;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__left {
+  width: 50%;
+}
+
+.header__right {
+  width: 30%;
+}
+
+.header__name {
+  color: #0b00f9;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.header__role {
+  color: #666666;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: .5em 0;
+}
+
+.header__info {
+  color: #666666;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.header__social {
+  padding: .2em 0;
+  font-weight: 700;
+  padding: 0 .5em;
+  text-decoration: none;
+  color: #000;
+}
+
+.header__social div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: .5em 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5em;
+}
+
+.body__left {
+  width: 50%;
+}
+
+.body__right {
+  width: 30%;
+  text-align: right;
+}
+
+.experience {
+  margin-bottom: 2em;
+}
+
+.experience__heading {
+  color: #0b00f9;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.experience__role {
+  color: #666666;
+  margin: .5em 0;
+}
+
+.experience__role a {
+  color: #0b00f9;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.experience__date {
+  font-weight: 700;
+}
+
+.experience__info {
+  line-height: 1.6em;
+  color: #666666;
+}
+
+.experience img {
+  width: 8em;
+  margin-top: 1em;
+}
+
+.skill {
+  line-height: 1.6em;
+  color: #666666;
+}
+
+.skill__heading {
+  color: #0b00f9;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+/*# sourceMappingURL=main.css.map */
