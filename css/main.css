@@ -85,10 +85,13 @@ body {
   margin: .5em 0;
 }
 
-.experience__role a {
-  color: #0b00f9;
+.experience__role  {
+  
   font-size: 1.2em;
   font-weight: 700;
+}
+.experience__role:hover {
+  color: #0b00f9;
 }
 
 .experience__date {
